@@ -1,6 +1,6 @@
 # React + Vite
 
-Learning React
+Learning React and JavaScript core
 
 In this project:
 
