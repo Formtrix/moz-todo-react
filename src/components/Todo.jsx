@@ -91,10 +91,6 @@ function Todo(props) {
     }
   }, [wasEditing, isEditing]);
 
-
-
-
-
   return <li className="todo">{isEditing ? editingTemplate : viewTemplate}</li>;
 }
 
