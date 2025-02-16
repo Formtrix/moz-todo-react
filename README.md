@@ -43,8 +43,8 @@ What we will need and what you should know.
   It should return a version number for confirmation of successful install, this also installs **NPM**.
 
   After successful Node installation, we can use the Node Package Manager(NPM) to create fresh project from Vite's React Template.
-  [NPM](https://www.npmjs.com/) has Create command ( [npm init](https://docs.npmjs.com/cli/v11/commands/npm-init)) that we can use to create new projects from templates.
-  To test **npm create** in a terminal `cd` to local directory where the app will live locally, then run.
+  [NPM](https://www.npmjs.com/) has Create command ( [npm init](https://docs.npmjs.com/cli/v11/commands/npm-init) ) that we can use to create new projects from templates.
+  To test **npm create** in a terminal `cd` to a local directory where the app will live locally, then run.
 
   ```zsh
   npm create vite@latest  -- --template react
