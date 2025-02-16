@@ -23,7 +23,10 @@ App UI sneak peek!
 _Before setting up and running the app, I recommend getting conformtable with JSX syntax for react apps._
 
 Typical JSX Syntax
-`const heading = <h1>Keny Kit Developer Network</h1>;`
+
+```json
+const heading = <h1>Keny Kit Developer Network</h1>;
+```
 
 What we will need and what you should know.
 
@@ -40,21 +43,21 @@ What we will need and what you should know.
   It should return a version number for confirmation of successful install, this also installs **NPM**.
 
   After successful Node installation, we can use the Node Package Manager(NPM) to create fresh project from Vite's React Template.
-  [NPM](https://www.npmjs.com/) has create command that we can use to create new projects from templates.
-  In a terminal `cd` to local directory where the app will live locally, then run
+  [NPM](https://www.npmjs.com/) has Create command ( [npm init](https://docs.npmjs.com/cli/v11/commands/npm-init)) that we can use to create new projects from templates.
+  To test **npm create** in a terminal `cd` to local directory where the app will live locally, then run.
 
   ```zsh
   npm create vite@latest  -- --template react
   ```
 
-  This will create new React App with Vite's support; however, **we are not creating new app**, we just want to run the one in this repo.
+  This will create new React app with Vite's support; however, **we are not creating new app**, we just want to run the one in this repo.
   So, clone this repo with `git clone https://github.com/user/repo.git`, for example
 
   ```zsh
   git clone https://github.com/octocat/Hello-World.git
   ```
 
-  Down to a local directory and `cd` to the root of the app and run
+  Down to a local directory, `cd` to the root of the app, and run
 
   ```zsh
   npm run dev -- --open --port 3000
