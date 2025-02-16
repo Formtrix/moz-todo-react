@@ -60,7 +60,7 @@ What we will need and what you should know.
   npm run dev -- --open --port 3000
   ```
 
-  If you wrong into error, check
+  If you run into error, check
 
   - Node Version
   - If on Windows, may need WSL
